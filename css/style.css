@@ -1,0 +1,83 @@
+body {
+    background: rgb(32, 0, 119);
+    background: linear-gradient(rgb(80, 0, 209), rgb(32,0,119));
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.main-page{
+    margin-left: 200px;
+}
+
+.bbb {
+    width: 100px;
+    height: 39px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 12em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(8, 0, 44);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav-bot{
+    position: absolute;
+    bottom: 8px;
+}
+
+.hl-1 {
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #00d3b0cb;
+    display: block;
+    transition: 0.3s;
+}
+
+.hl-2{
+    padding: 8px 8px 8px 20px;
+}
+
+.hl-2 img{
+    width: 60px;
+    height: 90px;
+}
+
+
+.sidenav p {
+    padding: 6px 6px 6px 20px;
+    font-size: 16px;
+    color: #d400ff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #4b19ff;
+}
+
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    color: #708a00ea;
+}
+
+a{
+    color: #43a047;
+}
+
+.rainbow-text{
+    width: 530px;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
