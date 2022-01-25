@@ -5,16 +5,23 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.main-page{
+section, header{
     margin-left: 200px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+footer{
+    margin-left: 12em;
+    margin-bottom: -1px;
 }
 
 .bbb {
-    width: 100px;
-    height: 39px;
+    width: 102px;
+    height: 38px;
 }
 
-.sidenav {
+aside.sidenav {
     height: 100%;
     width: 12em;
     position: fixed;
@@ -50,7 +57,7 @@ body {
 }
 
 
-.sidenav p {
+aside.sidenav p {
     padding: 6px 6px 6px 20px;
     font-size: 16px;
     color: #d400ff;
@@ -58,10 +65,9 @@ body {
     transition: 0.3s;
 }
 
-.sidenav a:hover {
+aside.sidenav a:hover {
     color: #4b19ff;
 }
-
 
 h1{
     font-size: 60px;
@@ -75,9 +81,50 @@ a{
     color: #43a047;
 }
 
-.rainbow-text{
+header{
     width: 530px;
     background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+footer{
+    background-color: rgb(34, 34, 34);
+}
+
+.top-footer{
+    background-color: white;
+    text-align: center;
+}
+
+.top-footer img{
+    width: 125px;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+}
+
+.bot-footer{
+    text-align: center;
+}
+
+
+.bot-footer img{
+    padding: 5px 5px 5px 5px;
+
+}
+
+.right-footer{
+    float: right;
+    width: 180px;
+    margin-left: -180px;
+    position: relative;
+    padding: 10px; 
+}
+
+.left-footer{
+    float: left;
+    width: 110px;
+    margin-right: -110px;
+    position: relative;
+    padding: 10px;
 }
