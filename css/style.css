@@ -2,12 +2,12 @@ body {
     background: rgb(32, 0, 119);
     background: linear-gradient(rgb(80, 0, 209), rgb(32,0,119));
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 section, header{
     margin-left: 200px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     display: block;
 }
 
@@ -19,6 +19,14 @@ footer{
 .bbb {
     width: 102px;
     height: 38px;
+}
+
+.dsign{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    text-align: center;
 }
 
 aside.sidenav {
@@ -45,6 +53,7 @@ aside.sidenav {
     color: #00d3b0cb;
     display: block;
     transition: 0.3s;
+    padding-bottom: 1em;
 }
 
 .hl-2{
@@ -128,3 +137,72 @@ footer{
     position: relative;
     padding: 10px;
 }
+
+.ourClients {
+    padding: 65px 0 55px 0;
+    background: linear-gradient(to right, #03cb78 0%, #0056d8 100%);
+}
+
+.contactUs {
+    padding: 65px 0 55px 0;
+    background: linear-gradient(to right, #8203cb 0%, #0020d8 100%);
+}
+.comparation{
+    padding: 65px 0 55px 0;
+    background: linear-gradient(to right, #035acb 0%, #00d8a991 100%);
+}
+
+.blockTitle {
+    font-size: 55px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.ourClients .clientsRow, .contactUs .clientsRow{
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.ourClients img{
+    width: 8.25em;
+    height: 2.55em;
+    padding: 3px 3px 3px 3px;
+}
+
+table{
+    width:100%;
+    table-layout: fixed;
+}
+.tbl-header{
+    background-color: rgba(255,255,255,0.3);
+}
+.tbl-content{
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+    margin-bottom: 10px;
+}
+th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+
